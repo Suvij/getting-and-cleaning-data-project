@@ -1,8 +1,6 @@
 library(reshape2)
 
-
-
-#Program assumes that the data for the oroject is available at the same working
+#Program assumes that the data for the project is available in the same working
 #directory.
 # Load activity labels + features
 activities <- read.table("UCI HAR Dataset/activity_labels.txt")
